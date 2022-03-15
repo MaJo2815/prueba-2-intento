@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Oswald:wght@400;500;600;700&family=Space+Mono&display=swap');
+
+body{
+	color: #000;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	background-color: #000;
+}
+
+#hero {
+	background-image: url("../img/bg-sliders.jpg");
+	padding: 150px 50px;
+	background-size: cover;
+	background-position: top center;
+	font-size: 14px;
+	color: #fff;
+}
+
+#hero h1 {
+	font-weight: bolder;
+	color: #fff;
+}
+
+footer {
+	background-color: #323232;
+	color: #898989;
+	padding: 15px;
+	
+}
+
+footer ul a{
+	color: #898989;
+}
+
+#banners {
+	padding: 50px 10px;
+}
+
+#product {
+	font-weight: 300;
+	padding: 100px 10px;
+}
+
+#product img{
+	width: 150px;
+	align-content: center;
+}
+
+#product .slick-buttons .btn-primary{
+	background-color: transparent;
+	color: #000;
+	border: none;
+	font-size: 25px;
+}
